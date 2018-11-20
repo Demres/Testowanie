@@ -18,6 +18,8 @@ public class PlayerTest {
 		assertNotNull(p.trainings);
 		Training t = p.getTraining("Trening");
 		assertNotNull(t);
+		double playerAvg = p.getAvg();
+		assertNotNull(playerAvg);
 	}
 
 }
