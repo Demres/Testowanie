@@ -15,4 +15,14 @@ public class Training {
 		grade.add(i);
 	}
 	
+	public int getBestGrade() {
+		int max = -1;
+		for(Integer g: grade) {
+			if(max < g) {
+				max = g;
+			}
+		}
+		return max;
+	}
+	
 }
