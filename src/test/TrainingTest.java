@@ -4,9 +4,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import main.Player;
+import main.Training;;
 
 public class TrainingTest {
+	
+	
 
 	@Test
 	public void test() {

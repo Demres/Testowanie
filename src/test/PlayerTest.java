@@ -13,6 +13,8 @@ public class PlayerTest {
 	public void test() {
 		Player p =new Player();
 		assertNotNull(p);
+		p.addTraining("Trening");
+		assertNotNull(p.trainings);
 	}
 
 }
