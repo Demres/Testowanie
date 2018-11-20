@@ -24,5 +24,14 @@ public class Training {
 		}
 		return max;
 	}
+
+	public double getAvg() {
+		double avg = 0.0;
+		for(Integer g: grade) {
+			avg += g;
+		}
+		avg /= grade.size();
+		return avg;
+	}
 	
 }
