@@ -12,8 +12,10 @@ public class TrainingTest {
 
 	@Test
 	public void test() {
-		Training t =new Training();
+		Training t =new Training("Training");
 		assertNotNull(t);
+		t.addGrade(10);
+		assertNotNull(t.grade);
 	}
 
 }
