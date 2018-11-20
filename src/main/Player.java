@@ -21,4 +21,13 @@ public class Player {
 		}
 		return null;
 	}
+
+	public double getAvg() {
+		double avg = 0.0;
+		for(Training t: trainings) {
+			avg += t.getAvg();
+			}
+		avg /= trainings.size();
+		return avg;
+	}
 }
