@@ -16,6 +16,8 @@ public class TrainingTest {
 		assertNotNull(t);
 		t.addGrade(10);
 		assertNotNull(t.grade);
+		Integer bestGrade = t.getBestGrade();
+		assertNotNull(bestGrade);
 	}
 
 }
