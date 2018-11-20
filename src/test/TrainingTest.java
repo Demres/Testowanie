@@ -18,6 +18,8 @@ public class TrainingTest {
 		assertNotNull(t.grade);
 		Integer bestGrade = t.getBestGrade();
 		assertNotNull(bestGrade);
+		int avg = t.getAvg();
+		assertNotNull(avg);
 	}
 
 }
